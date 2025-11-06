@@ -24,7 +24,7 @@ jobs:
 
     - name: Download source code
       run: |
-        git clone https://github.com/bschnei/ebu-bootloader.git .
+        git clone https://github.com/mrinaldhillon/ebu-bootloader.git .
         git checkout ${GITHUB_REF_NAME}
         git submodule sync
         git -c protocol.version=2 submodule update --init --force --depth=1
