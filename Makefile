@@ -16,7 +16,7 @@ MV_DDR_SRC	:= ${BASE_DIR}/mv-ddr-marvell
 # and U-Boot source for device-specific settings. defaults are for ESPRESSObin Ultra
 CLOCKSPRESET ?= CPU_1200_DDR_750
 DDR_TOPOLOGY ?= 5
-UBOOT_CONFIG ?= mvebu_espressobin_ultra-88f3720_defconfig
+UBOOT_CONFIG ?= mvebu_espressobin-88f3720_defconfig
 
 all: bubt_image
 
